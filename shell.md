@@ -72,3 +72,12 @@ plugins=(
 ```bash
 sudo apt install fonts-font-awesome
 ```
+
+```bash
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+```
+
+Set ZSH_THEME="powerlevel10k/powerlevel10k" in ~/.zshrc.
+
+
+Run p10k configure to generate a new ~/.p10k.zsh.
