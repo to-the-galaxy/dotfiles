@@ -10,7 +10,17 @@ cp ~/.bashrc ~/.bashrc_bak
 
 ```
 {
-  sudo apt updatae
+  sudo apt update
   sudo apt install zsh -y
 }
 ```
+
+Change the shell by running:
+
+```bash
+chsh
+```
+
+Now add this path `/bin/zsh`, now log out and in for the changes to take effect.
+
+
