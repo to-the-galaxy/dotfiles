@@ -1,1 +1,11 @@
-# Vimrc
+" Vimrc
+
+set nocompatible
+syntax on
+set expandtab               " Space instead of tabs
+set softtabstop=4           " Tab indents by 2 spaces
+set shiftwidth=4            " >> indents by 2 spaces
+set shiftround              " >> indents to next multiple of 'shiftwidth'
+set number relativenumber   " Relative line number
+
+
