@@ -7,5 +7,6 @@ set softtabstop=4           " Tab indents by 2 spaces
 set shiftwidth=4            " >> indents by 2 spaces
 set shiftround              " >> indents to next multiple of 'shiftwidth'
 set number relativenumber   " Relative line number
-
-
+set hlsearch                " Highlight search
+set colorcolumn=80          " Color column at 80 characters
+hi ColorColumn ctermbg=DarkGrey
